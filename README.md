@@ -1,2 +1,3 @@
-# goit-markup-hw-03
-Home Work 03
+# goit-markup-hw-02
+Home work 2
+https://plov3.github.io/goit-markup-hw-02/
