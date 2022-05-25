@@ -32,40 +32,46 @@
     <!--основная часть-->
     <main>
     <!--герой-->    
-        <section class="hero container">
-            <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
-            <button class="hero-btn" type="button">Заказать услугу</button>
+        <section class="hero">
+            <div class="container">
+                <h1 class="hero-header">Эффективные решения для вашего бизнеса</h1>
+                <button class="hero-btn" type="button">Заказать услугу</button>
+            </div>       
         </section>
     <!--преимущества-->   
-        <section class="advantages">
-            <h2 class="advantages-header visually-hidden">преимушества</h2>
-            <ul class="our-advantages section list container">
-                <li class="our-advantage">
-                    <h3 class="our-advantage-header section-header">Внимание к деталям</h3>
-                    <p class="our-advantage-text section-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                </li>
-                <li class="our-advantage">
-                    <h3 class="our-advantage-header section-header">Пунктуальность</h3>
-                    <p class="our-advantage-text section-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li class="our-advantage">
-                    <h3 class="our-advantage-header section-header">Планирование</h3>
-                    <p class="our-advantage-text section-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li class="our-advantage">
-                    <h3 class="our-advantage-header section-header">Современные технологии</h3>
-                    <p class="our-advantage-text section-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
-            </ul>
+        <section class="advantages section">
+            <div class="container">
+                <h2 class="advantages-header visually-hidden">преимушества</h2>
+                <ul class="our-advantages list">
+                    <li class="our-advantage">
+                        <h3 class="our-advantage-header section-header">Внимание к деталям</h3>
+                        <p class="our-advantage-text section-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                    </li>
+                    <li class="our-advantage">
+                        <h3 class="our-advantage-header section-header">Пунктуальность</h3>
+                        <p class="our-advantage-text section-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                    </li>
+                    <li class="our-advantage">
+                        <h3 class="our-advantage-header section-header">Планирование</h3>
+                        <p class="our-advantage-text section-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                    </li>
+                    <li class="our-advantage">
+                        <h3 class="our-advantage-header section-header">Современные технологии</h3>
+                        <p class="our-advantage-text section-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     <!--примеры работ-->    
-        <section class="examples container">
-            <h2 class="examples_header section-top-header">Чем мы занимаемся</h2>
-            <ul class="our-examples list">
-                <li class="our_example"><img src="./images/examples/example1.jpg" alt="пример работы 1" width="370" height="294"></li>
-                <li class="our_example"><img src="./images/examples/example2.jpg" alt="пример работы 2" width="370" height="294"></li>
-                <li class="our_example"><img src="./images/examples/example3.jpg" alt="пример работы 3" width="370" height="294"></li>
-            </ul>
+        <section class="examples section">
+            <div class="container">
+                <h2 class="examples_header section-top-header">Чем мы занимаемся</h2>
+                <ul class="our-examples list">
+                    <li class="our_example"><img src="./images/examples/example1.jpg" alt="пример работы 1" width="370" height="294"></li>
+                    <li class="our_example"><img src="./images/examples/example2.jpg" alt="пример работы 2" width="370" height="294"></li>
+                    <li class="our_example"><img src="./images/examples/example3.jpg" alt="пример работы 3" width="370" height="294"></li>
+                </ul>
+            </div>
         </section>
     <!--команда-->
         <section class="team section">
@@ -74,23 +80,31 @@
                 <ul class="team-units list">
                     <li class="team-unit">
                         <img src="./images/team/team1.jpg" alt="сотрудник 1" class="team_unit_photo" width="270" height="260">
-                        <h3 class="team-unit-name section-header">Игорь Демьяненко</h3>
-                        <p class="team-unit-title section-description">Product Designer</p>
+                        <div class="team-unit-info">
+                            <h3 class="team-unit-name section-header">Игорь Демьяненко</h3>
+                            <p class="team-unit-title section-description">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-unit">
                         <img src="./images/team/team2.jpg" alt="сотрудник 2" class="team_unit_photo" width="270" height="260">
-                        <h3 class="team-unit-name section-header">Ольга Репина</h3>
-                        <p class="team-unit-title section-description">Frontend Developer</p>
+                        <div class="team-unit-info">
+                            <h3 class="team-unit-name section-header">Ольга Репина</h3>
+                            <p class="team-unit-title section-description">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-unit">
                         <img src="./images/team/team3.jpg" alt="сотрудник 3" class="team_unit_photo" width="270" height="260">
-                        <h3 class="team-unit-name section-header">Николай Тарасов</h3>
-                        <p class="team-unit-title section-description">Marketing</p>
+                        <div class="team-unit-info">
+                            <h3 class="team-unit-name section-header">Николай Тарасов</h3>
+                            <p class="team-unit-title section-description">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-unit">
                         <img src="./images/team/team4.jpg" alt="сотрудник 4" class="team_unit_photo" width="270" height="260">
-                        <h3 class="team-unit-name section-header">Михаил Ермаков</h3>
-                        <p class="team-unit-title section-description">UI Designer</p>
+                        <div class="team-unit-info">
+                            <h3 class="team-unit-name section-header">Михаил Ермаков</h3>
+                            <p class="team-unit-title section-description">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
             </div>
