@@ -219,6 +219,9 @@ img {
 }
 /* /advantages */
 /* examples */
+.examples {
+    padding-bottom: 94px;
+}
 .our-examples {
     display: flex;
     justify-content: space-between;
@@ -258,12 +261,12 @@ img {
 /* /our team */
 /* filter */
 .portfolio-filter {
-    padding-top: 108px;
-    padding-bottom: 50px;
+    
 }
 .portfolio-filter-list {
     display: flex;
     justify-content: center;
+    margin-bottom: 50px;
 }
 .portfolio-filter-list-item:not(:last-child) {
     margin-right: 8px;
@@ -307,34 +310,26 @@ img {
     font-size: 16px;
     line-height: 1.87;
 }
-.portfolio-example {
-    width: 372px;
-    box-sizing: border-box;
-    background: #FFFFFF;
-    border: 1px solid #EEEEEE;
-}
 .portfolio-example-text {
-    margin: 20px 24px;
+    padding: 20px 24px;
+    border: #EEEEEE solid 1px;
+    border-top: none;
 }
 .portfolio-example:nth-child(-n+6) {
     margin-bottom: 30px;
-}
-.portfolio-example:hover,
-.portfolio-example:focus {
-    border: 1px solid var(--main-color);
 }
 /* /filter */
 /* footer */
 .footer {
     background: #2F303A;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 .footer-container {
     display: flex;
     flex-direction: column;
-    padding-bottom: 60px;
 }
 .logo-bot {
-    margin-top: 60px;
     margin-bottom: 20px;
 }
 .logo-half-dark {
@@ -345,6 +340,9 @@ img {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+}
+.contact-bot:not(:last-child) {
+    margin-bottom: 9px;
 }
 .map {
     color: #FFFFFF;    
